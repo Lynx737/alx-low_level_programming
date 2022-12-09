@@ -3,8 +3,7 @@
 
 /**
  * main - print and that piece of art is useful\" - Dora Korpar, 2015-10-19
- * and a new line 
- *
+ * and a new line
  * Return: 0 if success
  */
 
