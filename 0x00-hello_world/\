@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main -prints a statement
+ * main -prints a statement 
  * with proper grammar, but the outcome is a piece of art,
  * Return: 0 if exited succesfully
 */
