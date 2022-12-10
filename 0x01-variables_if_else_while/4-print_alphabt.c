@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	int i = 97;
+	int a = 97;
 
 	/* Alphabets excluding q and e */
-	while (i < 123)
+	while (a < 123)
 	{
-		if (i != 101 && i != 113)
+		if (a != 101 && a != 113)
 		{
-			putchar(i);
+			putchar(a);
 		}
-		i++;
+		a++;
 	}
 	putchar(10);
 	return (0);

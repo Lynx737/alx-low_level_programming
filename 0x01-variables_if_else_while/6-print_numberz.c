@@ -12,10 +12,10 @@ int main(void)
 {
 	int d=0;
 
-	while (i < 10)
+	while (d < 10)
 	{
 		putchar(i);
-		i++;
+		d++;
 	}
 
 	putchar(10);

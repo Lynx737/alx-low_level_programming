@@ -7,21 +7,21 @@
 
 int main(void)
 {
-	int i, j;
+	int a, b;
 
-	i = 97;
+	a = 97;
 
-	j = 65;
+	a = 65;
 
-	while (i < 123)
+	while (a < 123)
 	{
 		putchar(i);
-		i++;
+		a++;
 	}
-	while (j < 91)
+	while (b < 91)
 	{
-		putchar(j);
-		j++;
+		putchar(b);
+		b++;
 	}
 	putchar(10);
 
