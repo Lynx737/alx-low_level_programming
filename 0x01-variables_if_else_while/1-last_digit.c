@@ -4,9 +4,7 @@
 
 /**
  * main - prints last digit of random number
- *
  * Description: print last digit of random number
- *
  * Return: 0 (Code Success)
  */
 
