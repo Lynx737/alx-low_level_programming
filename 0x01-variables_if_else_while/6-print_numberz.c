@@ -11,8 +11,8 @@
 int main(void)
 {
 	int d;
-	d = 0;
-	while (d < 10)
+	d = 48;
+	while (d < 58)
 	{
 		putchar(d);
 		d++;
