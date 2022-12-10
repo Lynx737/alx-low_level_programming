@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i = 97;
+
 	/* Alphabets excluding q and e */
 	while (i < 123)
 	{
