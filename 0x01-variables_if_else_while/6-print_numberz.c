@@ -11,7 +11,9 @@
 int main(void)
 {
 	int d;
+	
 	d = 48;
+	
 	while (d < 58)
 	{
 		putchar(d);
