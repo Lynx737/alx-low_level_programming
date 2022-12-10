@@ -7,14 +7,16 @@
 
 int main(void)
 {
-	int ch;
-	/* lower case letters*/
-	for (ch = 'a'; ch <= 'd'; ch++)
+	int i = 97;
+	/* Alphabets excluding q and e */
+	while (i < 123)
 	{
-		if (ch != 'e' && ch != 'q')
-			{
-				putchar(ch);
-			}
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
 	}
+	putchar(10);
 	return (0);
 }

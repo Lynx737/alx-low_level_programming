@@ -7,10 +7,20 @@
 
 int main(void)
 {
-	int ch;
-	/* upper case letters */
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
-		putchar("\n");
+	int i, j;
+	i = 97;
+	j = 65;
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	while (j < 91)
+	{
+		putchar(j);
+		j++;
+	}
+	putchar(10);
+
 	return (0);
 }
