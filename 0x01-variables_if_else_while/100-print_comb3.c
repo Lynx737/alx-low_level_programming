@@ -31,7 +31,7 @@ int main(void)
 			b++;
 		}
 
-		b++;
+		a++;
 	}
 
 	putchar(10);
