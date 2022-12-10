@@ -3,7 +3,7 @@
 /**
  * main - pprints all the numbers of base 16 in lowercase,
  *followed by a new line.
- * Description: prints all the numbers of base 16 in lowercase, 
+ * Description: prints all the numbers of base 16 in lowercase,
  * followed by a new line.
  *
  * Return:0 (Success)
