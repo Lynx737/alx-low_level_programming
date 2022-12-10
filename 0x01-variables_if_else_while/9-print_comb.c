@@ -2,9 +2,7 @@
 
 /**
  * main - print single digit numbers
- *
  * Description: print single digit numbers with commas
- *
  * Return: 0 code sucessful
  */
 
