@@ -2,9 +2,7 @@
 
 /**
  * main - print pairs of double digit combos
- *
  * Description: print pairs of double digit combos
- *
  * Return: 0 (Code Successful)
  */
 

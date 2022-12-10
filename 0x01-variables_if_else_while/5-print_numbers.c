@@ -2,9 +2,7 @@
 
 /**
  * main - print single digit numbers
- *
  * Descripton: print single digit numbers
- *
  * Return:0 Code Successful
  */
 
