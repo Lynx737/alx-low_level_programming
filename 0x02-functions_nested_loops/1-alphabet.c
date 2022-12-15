@@ -4,8 +4,8 @@
  * return: void
  */
 void print_alphabet(void)
-{
-	 for (int b = 'a'; b <= 'z'; b++;)
+{	int b;
+	 for (b = 'a'; b <= 'z'; b++;)
 	 {
 		_putchar (b);
 	}
