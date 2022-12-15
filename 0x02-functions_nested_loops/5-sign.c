@@ -4,7 +4,9 @@
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
  * @n: input to be checked
- * return: 0 or 1 code successful
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
