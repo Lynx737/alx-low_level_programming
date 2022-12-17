@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Debugging.
- * Return: 0
+ * Return: 0 code successful
  */
 int main(void)
 {
