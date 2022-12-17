@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * main - Debugging.
  * Return: 0
  */
-
 int main(void)
 {
 	int i;
