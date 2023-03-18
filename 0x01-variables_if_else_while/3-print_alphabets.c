@@ -1,29 +1,18 @@
 #include <stdio.h>
-/**
-* main - prints Upperncase ialphabets from a to z
-* Return:0 code successful
-* description: print the letters of the alphabet
-*/
 
+/**
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int a, b;
+	int ch;
 
-	a = 97;
-
-	a = 65;
-
-	while (a < 123)
-	{
-		putchar(i);
-		a++;
-	}
-	while (b < 91)
-	{
-		putchar(b);
-		b++;
-	}
-	putchar(10);
-
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
