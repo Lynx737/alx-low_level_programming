@@ -5,7 +5,7 @@
  * @head: head of a list.
  * @n: n element.
  *
- * Return: address of the new element. 
+ * Return: address of the new element.
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
