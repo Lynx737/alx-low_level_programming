@@ -2,7 +2,7 @@
 
 /**
  * insert_nodeint_at_index - inserts a new node
- * at a given position.
+ * at a given index.
  * @head: head of a list.
  * @idx: index of the list where the new node is
  * added.
@@ -13,7 +13,7 @@
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	unsigned int i;
+	unsigned int a;
 	listint_t *new;
 	listint_t *h;
 
@@ -21,7 +21,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (idx != 0)
 	{
-		for (i = 0; i < idx - 1 && h != NULL; i++)
+		for (a = 0; a < idx - 1 && h != NULL; a++)
 		{
 			h = h->next;
 		}
