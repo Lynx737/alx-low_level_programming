@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - deletes the node at index
- * of a linked list.
+ * delete_nodeint_at_index - deletes the node at index.
  * @head: head of a list.
  * @index: index of the list where the node is
  * deleted.
@@ -12,34 +11,34 @@
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	unsigned int i;
-	listint_t *prev;
+	listint_t *current;
 	listint_t *next;
 
-	prev = *head;
+	current = *head;
 
 	if (index != 0)
 	{
-		for (i = 0; i < index - 1 && prev != NULL; i++)
+		for (i = 0; i < index - 1 && current != NULL; i++)
 		{
-			prev = prev->next;
+			current = current->next;
 		}
 	}
 
-	if (prev == NULL || (prev->next == NULL && index != 0))
+	if (current == NULL || (current->next == NULL && index != 0))
 	{
 		return (-1);
 	}
 
-	next = prev->next;
+	next = current->next;
 
 	if (index != 0)
 	{
-		prev->next = next->next;
+		current->next = next->next;
 		free(next);
 	}
 	else
 	{
-		free(prev);
+		free(current);
 		*head = next;
 	}
 
